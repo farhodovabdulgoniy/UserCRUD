@@ -1,7 +1,12 @@
 # UserCRUD
 CRUD User using RestFramework
-pip install -r requirements.txt
+
+pip install virtualenv
+
+virtualenv venv
 
 pip install -r requirements.txt
 
-pip install -r requirements.txt
+python manage.py makemigrations
+
+python manage.py migrate
